@@ -15,7 +15,7 @@ export const Header = ({ token, clear }: { token: string | null, clear: Dispatch
           />
           <div>
             <Typography variant={'h1'} fontSize={'1.5rem'}>
-              {'«ЖЭС-обращения»'}
+              {'«ЖЭС - обращения»'}
             </Typography>
             <Typography variant={'h3'} fontSize={'0.8rem'}>
               {'Платформа для подачи обращений'}
@@ -24,7 +24,7 @@ export const Header = ({ token, clear }: { token: string | null, clear: Dispatch
         </IconButton>
         <Toolbar>
           {!token && <Button href='/signIn'>{'Войти'}</Button>}
-          {!token && <Button href='/signUp'>{'Регистрация'}</Button>}
+          {!token && <Button href='/signUp'>{'Зарегистрироваться'}</Button>}
           {!!token && <Button onClick={() => {
             window.localStorage.clear();
             clear(null);

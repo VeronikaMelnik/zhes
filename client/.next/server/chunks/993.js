@@ -47,9 +47,9 @@ const Footer = ()=>{
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_mui_material__WEBPACK_IMPORTED_MODULE_1__.AppBar, {
             position: "static",
             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_mui_material__WEBPACK_IMPORTED_MODULE_1__.Typography, {
-                variant: "h2",
+                variant: "h3",
                 fontSize: "1.5rem",
-                children: '"ЖЭС - обращения" \xa9 2022.'
+                children: "\xabЖЭС - обращения\xbb \xa9 2022."
             })
         })
     });
@@ -135,7 +135,7 @@ const Header = ({ token , clear  })=>{
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_mui_material__WEBPACK_IMPORTED_MODULE_1__.Typography, {
                                     variant: "h1",
                                     fontSize: "1.5rem",
-                                    children: "\xabЖЭС-обращения\xbb"
+                                    children: "\xabЖЭС - обращения\xbb"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_mui_material__WEBPACK_IMPORTED_MODULE_1__.Typography, {
                                     variant: "h3",
@@ -154,7 +154,7 @@ const Header = ({ token , clear  })=>{
                         }),
                         !token && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_mui_material__WEBPACK_IMPORTED_MODULE_1__.Button, {
                             href: "/signUp",
-                            children: "Регистрация"
+                            children: "Зарегистрироваться"
                         }),
                         !!token && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_mui_material__WEBPACK_IMPORTED_MODULE_1__.Button, {
                             onClick: ()=>{

@@ -4,8 +4,8 @@
   "/api/hello": "pages/api/hello.js",
   "/api": "pages/api.js",
   "/": "pages/index.html",
-  "/signIn": "pages/signIn.html",
   "/signUp": "pages/signUp.html",
+  "/signIn": "pages/signIn.html",
   "/_error": "pages/_error.js",
   "/404": "pages/404.html"
 }
